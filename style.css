@@ -1,8 +1,16 @@
 * {
    font-family: Arial;
    color: #FFFFFF;
-   background: #000000;
    list-style:none;
    text-decoration: none;
    font-size: 40px;
+}
+
+body {
+	background-image:url("assets/background_url.png");
+	background-size: cover;
+	background-position: center;
+	background repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
 }
