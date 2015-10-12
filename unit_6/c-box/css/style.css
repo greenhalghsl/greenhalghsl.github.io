@@ -1,0 +1,92 @@
+body{
+	background:#000;
+	color:#fff;
+	background-image:url("../images/background.jpg");
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+
+header{
+	width:100%;
+	height:200px;
+	border:1px solid red;
+	float:both;
+	margin:0 auto;
+	position:fixed;
+	display:inline-block;
+	padding:10px;
+	background-color: rgba(0,0,0,0.75);
+
+}
+
+div{
+	width:600px;
+	height:330px;
+	border:1px solid white;
+	float:both;
+	margin:0 auto;
+	display:inline-block;
+	position:relative;
+	padding:10px;
+}
+
+img{
+	border:1px solid white;
+	float:left;
+	margin:0 auto;
+	display:block;
+	position:relative;
+	padding:0px;
+	opacity: 0.75;
+}
+
+footer{
+	width:100%;
+	height:200px;
+	border:1px solid yellow;
+	float:both;
+	margin:0 auto;
+	position:absolute;
+	display:inline;
+	padding:10px;
+}
+
+#logo{
+	width:100px;
+	height:100px;
+	color:#fff;
+	background-color: transparent;
+	font-family:Arial;
+	font-size: 60px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px;
+	border:4px solid white;
+	float: both;
+	display: inline-block;
+	position: fixed;
+}
+
+/*section{
+	width:100%;
+	border:1px solid blue;
+	float:both;
+	margin:10px;
+	position:relative;
+	display:inline-block;
+	padding:10px;
+}*/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
