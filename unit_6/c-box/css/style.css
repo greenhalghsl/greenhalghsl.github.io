@@ -90,7 +90,7 @@ footer{
 	width:100px;
 	height:100px;
 	color:#fff;
-	background-color: transparent;
+	background-color: black;
 	font-family:Arial;
 	font-size: 60px;
 	text-align: center;
@@ -106,7 +106,7 @@ footer{
 	width:100px;
 	height:100px;
 	color:#fff;
-	background-color: transparent;
+	background-color: black;
 	font-family:Arial;
 	font-size: 60px;
 	text-align: center;
@@ -114,8 +114,8 @@ footer{
 	line-height: 75px;
 	border:4px solid white;
 	float: both;
-	display: inline;
-	position: absolute;
+	display: inline-block;
+	position: fixed;
 }
 
 /*section{
