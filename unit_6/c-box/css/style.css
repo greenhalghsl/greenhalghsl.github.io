@@ -34,6 +34,23 @@ div{
 	padding:10px;
 }
 
+p{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+h2{
+	font-family: arial;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
 img{
 	border:1px solid white;
 	float:left;
