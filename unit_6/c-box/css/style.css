@@ -44,7 +44,7 @@ h2{
 	font-size: 35px;
 	text-align: right;
 	vertical-align: middle;
-	margin: 100px;
+	margin: 50px;
 
 }
 
@@ -109,18 +109,18 @@ footer{
 }
 
 .name{
-	 margin: 100px;
+	 margin: 50px;
+	 float: left;
 }
 
 
 .slogan{
-  	width:70%;
-  	float:right;
+  	width:80%;
+  	float:left;
   	text-align: right;
 	font-family: 'Philosopher', sans-serif;
   	font-style: bold;
-  	line-height: 20px;
-
+  	padding: 20px;
 }
 
 .text {
