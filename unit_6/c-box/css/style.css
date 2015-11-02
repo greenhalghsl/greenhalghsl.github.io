@@ -4,7 +4,7 @@
 body{
 	background:#000;
 	color:#eee;
-	background-image:url("../images/background.jpg");
+	/*background-image:url("../images/background.jpg");*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
