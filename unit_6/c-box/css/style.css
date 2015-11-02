@@ -15,7 +15,7 @@ body{
 
 header{
 	width:100%;
-	height:130px;
+	height:120px;
 	/*border:1px solid red;*/
 	color: #000;
 	margin:0 auto;
@@ -31,18 +31,15 @@ section{
 	/*border:1px solid blue;*/
 }
 
-div{
-	padding:10px;
-}
 
 p{
 	font-family: 'Work Sans', sans-serif;
 	font-size: 16px;
 	font-weight: 100;
-	text-align: left;
+	text-align: justify;
 	vertical-align: middle;
 	padding: 30px 30px 30px 30px;
-
+	line-height: 20px;
 }
 
 h2{
@@ -74,7 +71,7 @@ a:active{
 }
 
 img{
-	border:1px solid white;
+	border:none;
 	width: 100%;
 	margin:0 auto;
 	padding:0px;
@@ -115,6 +112,11 @@ footer{
   	text-align: right;
 }
 
+.name{
+	  	margin: 100px;
+}
+
+
 .slogan{
   	width:70%;
   	/*border:1px solid white;*/
@@ -122,7 +124,12 @@ footer{
   	text-align: right;
 	font-family: 'Philosopher', sans-serif;
   	font-style: bold;
-  	line-height: 2em;
+  	line-height: 20px;
+
+}
+
+.text {
+	  	margin: 100px;
 }
 
 
@@ -137,4 +144,5 @@ footer{
 	vertical-align: middle;
 	line-height: 75px;
 	border:4px solid white;
+	padding: 10px;
 }
