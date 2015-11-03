@@ -110,13 +110,13 @@ footer{
 
 .name{
 	 margin: 50px;
-	 float: left;
+	 float: right;
 }
 
 
 .slogan{
   	width:80%;
-  	float:left;
+  	float:right;
   	text-align: right;
 	font-family: 'Philosopher', sans-serif;
   	font-style: bold;
@@ -157,7 +157,6 @@ footer{
 		display: none;
 	}
 
-	
 
 	.slogan {
 		display: none;
