@@ -1,4 +1,5 @@
-@import url();
+@import url(https://fonts.googleapis.com/css?family=Electrolize);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
 * { margin: 0; padding: 0; box-sizing:border-box; }
 
@@ -28,9 +29,14 @@ footer {
 }
 
 article {
-	width: 100%;
-	margin: 210px 50px 50px 50px;
+	margin: 200px 50px 0 50px;
+	width: 50%;
+	color: white;
 	text-align: justify;
+	line-height: 16px;
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-family: 'Electrolize', sans-serif;
 }
 
 button a{
@@ -84,5 +90,4 @@ button a:hover{
 	float: left;
 	position: relative;
 	background-color: black
-
 }
