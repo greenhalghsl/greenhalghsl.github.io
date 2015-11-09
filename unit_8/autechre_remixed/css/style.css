@@ -24,7 +24,7 @@ footer {
 	text-align: justify;
 	float: left;
 	position: relative;
-	background-color: black;
+	background-color: transparent;
 	border: none;
 }
 
@@ -67,9 +67,9 @@ button a:hover{
 }
 
 .videos {
-	padding: 160px 40px 0 40px;
+	padding: 185px 40px 0 40px;
 	position: relative;
-	float: left;
+	float: right;
 }
 
 .clearfix:after {
