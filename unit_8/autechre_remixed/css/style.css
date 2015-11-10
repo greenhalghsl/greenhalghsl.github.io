@@ -29,21 +29,22 @@ footer {
 }
 
 article {
-	margin: 0 0 70px 70px;
+	margin: 0 70px 70px 70px;
 	padding-top: 160px;
 	width: 80%;
 	color: white;
 	text-align: justify;
-	line-height: 16px;
-	letter-spacing: 2px;
-	font-size: 16px;
-	font-family: 'Electrolize', sans-serif;
 	line-height: 40px;
-
+	letter-spacing: 2px;
+	font-size: 24px;
 }
 
-h1, h2, h3 { 
-	font-size: 20px; 
+article p {
+	font-family: 'Electrolize', sans-serif;
+}
+
+h1 { 
+	font-size: 30px; 
 	color: white; 
 	text-decoration: none; 
 	background-color: rgba(0,0,0,0.5);
