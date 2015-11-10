@@ -107,8 +107,7 @@ button a:hover{
 	html {
 		background-color: rgba(0,0,0,1);
 	}
-
 	header {
-		background-color: rgba(0,0,0,1);
+		background-color: red;
 	}
 }
