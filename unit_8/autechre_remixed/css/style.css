@@ -8,6 +8,7 @@ html, body {
 	background-size: 100%;
 	background-color: black;
 	background-attachment: fixed;
+	font-size: 16px;
 }
 
 header {
@@ -48,7 +49,7 @@ h1 {
 	color: white; 
 	text-decoration: none; 
 	background-color: rgba(0,0,0,0.5);
-	font-family: 'Press+Start+2P', sans-serif;
+	font-family: 'Press Start 2P', sans-serif;
 }
 button a{
 	color: white;
@@ -71,6 +72,7 @@ button a:hover{
 	padding: 185px 40px 0 40px;
 	position: relative;
 	float: right;
+	/*text-align: center;*/
 }
 
 .clearfix:after {
