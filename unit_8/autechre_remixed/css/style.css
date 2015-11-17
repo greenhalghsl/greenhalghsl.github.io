@@ -89,16 +89,16 @@ label {
 }
 
 section {
-	height: 100vh;
+	height: 82vh;
 }
 
 nav a:hover, footer a:hover, label:hover {
 	color: green;
 }
 
-.photos {
+.photos img {
 	width: 100%;
-	height: auto;
+	max-width: 100%;
 	margin: 0 auto;
 	position: relative;
 	float: left;
@@ -132,7 +132,7 @@ nav a:hover, footer a:hover, label:hover {
   	display: none;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1024px) {
 	
 	header {
 		position: relative;
@@ -159,12 +159,16 @@ nav a:hover, footer a:hover, label:hover {
     
     nav {
       	display: none;
+      	width: 100%;
     }
     
     nav a {
+    	width:100%;
         display: block;
         text-align:center;
         color: white;
+        margin: 0;
+        float: left;
     }
 
     #toggle:checked + nav {
