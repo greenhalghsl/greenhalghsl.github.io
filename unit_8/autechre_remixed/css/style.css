@@ -89,7 +89,18 @@ label {
 }
 
 section {
-	height: 82vh;
+	height: 100vh;
+}
+
+iframe:nth-of-type(1) {
+	margin-top: 140px;
+}
+
+.youtube {
+	width: 50%;
+	position: relative;
+	float: right;
+	margin: 0 auto;
 }
 
 nav a:hover, footer a:hover, label:hover {
@@ -102,13 +113,6 @@ nav a:hover, footer a:hover, label:hover {
 	margin: 0 auto;
 	position: relative;
 	float: left;
-}
-
-.videos {
-	position: relative;
-	float: left;
-	margin-top: 140px;
-	text-align: right;
 }
 
 .clearfix:after {
@@ -132,12 +136,15 @@ nav a:hover, footer a:hover, label:hover {
   	display: none;
 }
 
+
+
 @media screen and (max-width: 1024px) {
 	
 	header {
 		position: relative;
 		float: left;
 	}
+
 
 	label {
 		display: block;
@@ -176,5 +183,6 @@ nav a:hover, footer a:hover, label:hover {
       	color: white;
 	    float: right;
 	    clear: both;
-    }
+    }	
+
 }
